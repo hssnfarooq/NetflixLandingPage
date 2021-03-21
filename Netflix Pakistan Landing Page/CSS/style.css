@@ -1,0 +1,670 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.showcase::after{
+    content: '';
+    background:url('../images/netflix-showcase.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    box-shadow: inset 0px 0px 20px 20px black;
+    opacity: 0.5;
+    position: relative;
+}
+
+.inner-showcase{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.content-1{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.logo{
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.btn-signin{
+    background: #e50914;
+    color: #ffff ;
+    border: none;
+    font-size: 17px;
+    padding: 7px 16px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.content-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380%;
+}
+
+.content-2 h1{
+    font-size: 50px;
+    width: 550px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.content-2 .heading-1{
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 1.2px;
+}
+.inline{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.input-1{
+    width: 420px;
+    padding: 15px 0;
+    padding-right: 50px;
+    background: #fff;
+}
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.btn-started{
+    background: #e50914;
+    color: #ffff ;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.content-2 .heading-2{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+    height: 8px;
+    background: rgb(46, 45, 45);
+    border: none;
+}
+
+.container{
+    max-width: 95%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1{
+    width: 50%;
+    margin-top: 15px;
+}
+
+.text-1 h1{
+    font-size: 45px;
+}
+
+.text-1 p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.tv-image{
+    width: 50%;
+    position: relative;
+    right: -5%;
+}
+
+.baar-1{
+    width: 100%;
+    height: 8px;
+    background: rgb(46, 45, 45);
+    border: none;
+    margin-top: 50px;
+}
+
+.container-b{
+    max-width: 95%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-2{
+    width: 50%;
+    position: relative;
+    right: -2%;
+    top: 30px;
+}
+
+.text-2 h1{
+    font-size: 45px;
+}
+
+.text-2 p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.phone-image{
+    width: 45%;
+    position: relative;
+    left: -10%;
+    margin-top: 30px;
+
+}
+
+
+.text-3{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.text-3 h1{
+    font-size: 45px;
+}
+
+.text-3 p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.device-image{
+    width: 45%;
+    position: relative;
+    right: -5%;
+    margin-top: 35px;
+}
+
+.container-table{
+    max-width: 960px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-table h1{
+    font-size: 45px;
+    margin: 50px 0 35px 0;
+}
+
+
+tr{
+    border: 8px black solid;
+}
+
+td{
+    text-align: start;
+    height: 80px;
+    border: none;
+}
+
+table{
+    border-collapse: collapse;
+    background: #303030;
+    cursor: pointer;
+    width: 80%;
+}
+
+.td-text{
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+td i{
+    font-size: 23px;
+}
+
+.inline-tables{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.input-table{
+    width: 390px;
+    padding: 15px 0;
+    padding-right: 50px;
+    background: #fff;
+}
+
+.heading-3{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-started-1{
+    background: #e50914;
+    color: #ffff ;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.footer-container{
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.footer-container > a {
+    font-size: 16px;
+    color: #757575;
+    margin-top: 60px;
+}
+
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+a{
+    color: #757575;
+    margin: 8px 0;
+}
+
+
+.footer-p{
+    font-size: 13px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width:980px){
+
+    
+    .content-2{
+        top: 240%;
+    }
+
+    .inline{
+        display: block;
+    }
+
+    .input-1{
+        width: 520px;
+        padding: 16.5px 0;
+        padding-right: 50px;
+        margin-top: 65px;
+    }
+
+    .btn-started{
+        display: block;
+        font-size: 16px;
+        padding: 13px 16px;
+        margin-top: 20px;
+        position: relative;
+        left: 25%;
+    }
+
+    .content-2 .heading-2{
+         display: none;
+    }
+
+    .heading-1::after{
+        content: 'Ready to watch? Enter your email to create or access your account.';
+        position: absolute;
+        display: block;
+        width: 500px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .text-1{
+        width: 100%;
+        text-align: center;
+        margin-top: 65px;
+        z-index: 2;
+    }
+
+    .text-1 h1{
+        font-size: 40px;
+    }
+
+    .text-1 p{
+        font-size: 18.5px;
+        margin-top: 15px;
+        line-height: 1.5;
+    }
+
+    .tv-image{
+        width: 80%;
+        position: relative;
+        bottom: 35px;
+        left: 0;
+    }
+
+
+    .container-b{
+        flex-direction: column-reverse;
+    }
+
+    
+    .text-2{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    }
+
+    .text-2 h1{
+    font-size: 40px;
+    }
+
+    .text-2 p{
+    font-size: 18.5px;
+    margin-top: 15px;
+    line-height: 1.5;
+    }
+
+    .phone-image{
+    width: 80%;
+    position: relative;
+    left: 0;
+    bottom: 30px;
+    }
+
+    
+    .text-3{
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    }
+
+    .text-3 h1{
+    font-size: 40px;
+    }
+
+    .text-3 p{
+    font-size: 18.5px;
+    margin-top: 15px;
+    }
+
+    .device-image{
+    width: 80%;
+    position: relative;
+    bottom: 30px;
+    left: 0;
+    }
+
+    
+    td{
+    height: 70px;
+    }
+
+    table{
+    width: 85%;
+    }
+
+    
+    .td-text{
+    font-size: 19px;
+    letter-spacing: 1px;
+    }
+
+    
+    .inline-tables{
+    display: block;
+    position: relative;
+    }
+
+    
+    .input-table{
+    display: block;
+    width: 530px;
+    padding: 18px 10px;
+    background: #fff;
+    margin-top: 25px;
+    }
+
+    .btn-started-1{
+    display: block;
+    font-size: 16px;
+    padding: 12px 15px;
+    margin-top: 15px;
+    position: relative;
+    left: 28%;
+    }
+
+    .heading-3{
+        display: none;
+    }
+
+    .inline-tables::after{
+        content: 'Ready to watch? Enter your email to create or access your account.';
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+        bottom: 85%;
+        left: 0;
+    }
+
+    
+.list{
+    grid-template-columns: repeat(3, 1fr);
+}
+    
+}
+
+@media (max-width:760px){
+    .heading-1::after{
+       font-size: 19px;
+    }
+
+    .input-1{
+        width: 550px;
+        padding: 15px 0;
+      
+    }
+
+    .input-table{
+        width: 530px;
+        padding: 15px 0;
+        }
+
+        
+    .inline-tables::after{
+       font-size: 19px;
+       width: 80%;
+       left: 10%;
+    }
+
+    .grid-container{
+        display: block;
+    }
+
+}
+
+@media (max-width: 580px){
+
+    .showcase::after{
+        height: 80vh;
+    }
+
+    .logo{
+        width: 110px;  
+    }
+    
+    .btn-signin{
+        margin-right: 30px;
+        padding: 5px 12px;
+    }
+    
+    .content-2 h1{
+        font-size: 28px;
+        width: 470px;
+    }
+
+    .content-2 .heading-1{
+        font-size: 18px;
+    }
+
+    .heading-1::after{
+        font-size: 16px;
+        width: 400px;
+     }
+
+     .input-1{
+        width: 430px;
+        padding: 13px 2px;
+    } 
+
+    .btn-started{
+        padding: 13px 13px;
+        margin-top: 12px;
+        position: relative;
+        left: 24%;
+    }
+
+
+    .text-1{
+        margin-top: 45px;
+    }
+
+    .text-1 h1{
+        font-size: 30px;
+    }
+
+    .text-1 p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .tv-image{
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+
+
+    .text-2{
+            width: 100%;
+            margin-bottom: 10px;
+            left: 0;
+    }
+    
+    .text-2 h1{
+        font-size: 30px;
+    }
+    
+    .text-2 p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .phone-image{
+        width: 100%;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .text-3{
+        margin-top: 45px;
+        }
+    
+    .text-3 h1{
+        font-size: 30px;
+        }
+    
+    .text-3 p{
+        font-size: 18px;
+        line-height: 1.5;
+        }
+
+    .device-image{
+        width: 100%;
+    }   
+    
+    .container-table h1{
+        font-size: 26px;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    .input-table{
+        width: 450px;
+        padding: 15px 0;
+        }
+
+     .btn-started-1{
+        display: block;
+        font-size: 16px;
+        padding: 12px 15px;
+        margin-top: 15px;
+        position: relative;
+        left: 23%;
+        }
+
+        .list{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+}
